@@ -48,30 +48,36 @@ Finally when a subcategory is chosen it leads to the products in this subcategor
 ![Screenshot_20231218_193510_OrderAppAndroid](https://github.com/gkaparos7/OrderAppAndroid/assets/122390421/cd7bf1b2-90a0-43a8-a887-cfdeddadc648)
 
 In this section the user can choose a product, and the product view is enlarged and some more option appear.
+
 The quantity editbox to insert the wanted quantity of the product in the chosen size.
+
 The dropdown menu to choose on of the available sizes.
+
 The button "Add to wishlist" to do exactly what it says.
+
 And the close button on the top right corner of the product, to minmize the product view if you change your mind.
+
 If you add a product to the wishlist, the view minimizes and a toast message for succesion appears.
 
 ![Screenshot_20231218_193755_OrderAppAndroid](https://github.com/gkaparos7/OrderAppAndroid/assets/122390421/fe65480b-3991-4885-86b9-a4b22ab6cf00)
 
-When the Wishlist Fragment is chosen the user can see the wishlist that is linked to him/her. 
+When the Wishlist Fragment is chosen the user can see the wishlist that is linked to him/her.
+
 There is only one wishlist to every user.
+
 The user can clear the whole wishlist pressing the according button on top right corner.
+
 An order from the wishlist can be easily made using the top left corner. The order is created, the wishlist empties and a toast message for succesion is appeared.
+
 If the user wants to delete an item from the wishlist can easily do it by swiping left.
 
 ![Screenshot_20231218_232051_OrderAppAndroid](https://github.com/gkaparos7/OrderAppAndroid/assets/122390421/003986fe-9d4c-4c9f-80ac-b59f3ef1c62d)
 
+When the Orders Fragment is chosen the user can see all of his/her orders.
+
+It is possible to choose an order and see all the order items that are in it.
+
+The back button takes you from the order items list to the orders view.
 
 
 
-
-Contributing
-We welcome contributions from the community to enhance the functionality and features of OrderAppAndroid. To contribute, refer to the Contributing section in the README.
-
-License
-This project is licensed under the [Your License] License. Refer to the LICENSE file for detailed information.
-
-Feel free to customize the introduction further based on your preferences or any additional information you'd like to include.
