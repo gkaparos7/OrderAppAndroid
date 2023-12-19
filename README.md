@@ -23,7 +23,17 @@ Seamlessly transition from wishlists to orders, streamlining the process of gene
 Access a comprehensive record of previous orders, facilitating easy reference and reordering.
 
 ## Getting Started
-To harness the benefits of OrderAppAndroid, follow the simple steps outlined in the Getting Started section of the README. Ensure you have the necessary prerequisites, and effortlessly integrate the app into your business workflow.
+Before using the OrderAppAndroid, ensure that the OrderAppSpringBoot backend is up and running. Follow these steps to configure the app:
+
+1. Find out the IP address of your computer using `ipconfig`.
+2. Open the Android app source code and locate URLs in the following files:
+   - `LoginActivity.java`
+   - `RegisterActivity.java`
+   - Files in the `requests` folder
+
+Update the base URLs in these files with your computer's IP address to ensure proper communication with the backend.
+
+The OrderAppSpringBoot has already some data to be used if needed. For example "admin@admin.com" for username and "12345" can work for logging in, and finding some wishlist items and orders ready.
 
 ## Inside the OrderApp
 In the beggining the user will have to login in order to be moved to the main menu, these 2 screens is what the user will see when opening hte app.
