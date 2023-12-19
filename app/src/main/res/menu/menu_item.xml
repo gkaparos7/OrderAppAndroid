@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeItem"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"
+        android:iconTint="@color/black"
+        />
+
+    <item android:id="@+id/productsItem"
+        android:title="Products"
+        android:icon="@drawable/ic_product"
+        android:enabled="true"
+        android:iconTint="@color/black"
+        />
+
+    <item android:id="@+id/wishlistItem"
+        android:title="Wishlist"
+        android:icon="@drawable/ic_wishlist"
+        android:enabled="true"
+        android:iconTint="@color/black"
+        />
+
+    <item android:id="@+id/orderItem"
+        android:title="Orders"
+        android:icon="@drawable/ic_order"
+        android:enabled="true"
+        android:iconTint="@color/black"
+        />
+
+</menu>
