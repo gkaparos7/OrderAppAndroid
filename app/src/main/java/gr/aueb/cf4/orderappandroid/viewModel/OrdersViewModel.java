@@ -38,6 +38,10 @@ public class OrdersViewModel extends AndroidViewModel {
                 context,
                 ordersArray -> {
                     List<Order> orderList = Arrays.asList(ordersArray);
+
+                    // Reverse the order of the list
+                    Collections.reverse(orderList);
+
                     orders.setValue(orderList);
                     Log.d("OrdersViewModel", "Orders fetched successfully: " + orderList.size() + " orders");
                 },
