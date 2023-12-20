@@ -33,7 +33,7 @@ Before using the OrderAppAndroid, ensure that the OrderAppSpringBoot backend is 
 
 Update the base URLs in these files with your computer's IP address to ensure proper communication with the backend.
 
-The OrderAppSpringBoot has already some data to be used if needed. For example "admin@admin.com" for username and "12345" can work for logging in, and finding some wishlist items and orders ready.
+The OrderAppSpringBoot has already some data to be used if needed. For example "admin@admin.gr" for username and "12345" can work for logging in, and finding some wishlist items and orders ready. The category Judo is correctly populated with subcategories and products.
 
 ## Inside the OrderApp
 In the beggining the user will have to login in order to be moved to the main menu, these 2 screens is what the user will see when opening hte app.
@@ -83,7 +83,9 @@ If the user wants to delete an item from the wishlist can easily do it by swipin
 
 ![Screenshot_20231218_232051_OrderAppAndroid](https://github.com/gkaparos7/OrderAppAndroid/assets/122390421/003986fe-9d4c-4c9f-80ac-b59f3ef1c62d)
 
-When the Orders Fragment is chosen the user can see all of his/her orders.
+When the Orders Fragment is chosen the user can see all of his/her orders, latest order first.
+
+![Screenshot_20231220_225145_OrderAppAndroid](https://github.com/gkaparos7/OrderAppAndroid/assets/122390421/010b96a2-e4c3-4d04-9012-24eea0704d69)
 
 It is possible to choose an order and see all the order items that are in it.
 
